@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-
 RUN apt-get update -y
 RUN apt-get install wget python3-pip unzip -y
 RUN pip3 install requests
